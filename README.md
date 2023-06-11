@@ -3,6 +3,10 @@
 This is a repository containing door opening data using modified reacher-grabber stick with iPhone mounted on it. This data was used in works **FISH**: [[Arxiv]](https://arxiv.org/abs/2303.01497) [[Project page and videos]](https://fast-imitation.github.io/) and **VINN**: [[Arxiv]](https://arxiv.org/abs/2112.01511) [[Project page and videos]](https://jyopari.github.io/VINN/)
 
 
+The following will load the data in numpy and save it as npy file locally. NOTE: The npy file can become extremely big because the images are loaded in full resolution. So edit the code to either fragment the data and save it in chunks or downsample images before saving them.
+```
+python loader.py
+```
 
 
 ## Bibtex
