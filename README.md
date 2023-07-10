@@ -1,6 +1,6 @@
 # Door Opening Dataset
 
-This is a repository containing door-opening data using a modified reacher-grabber stick with iPhone mounted on it. This data was used in works **FISH**: [[Arxiv]](https://arxiv.org/abs/2303.01497) [[Project page and videos]](https://fast-imitation.github.io/) and **VINN**: [[Arxiv]](https://arxiv.org/abs/2112.01511) [[Project page and videos]](https://jyopari.github.io/VINN/). The data can be downloaded from: https://drive.google.com/file/d/1CRfvW9sLZMH_UJwf8ILEbu9fkgABarrJ/view?usp=sharing
+This is a repository containing door-opening data which is collected using a modified reacher-grabber stick with iPhone mounted on it. This data was used in works **FISH**: [[Arxiv]](https://arxiv.org/abs/2303.01497) [[Project page and videos]](https://fast-imitation.github.io/) and **VINN**: [[Arxiv]](https://arxiv.org/abs/2112.01511) [[Project page and videos]](https://jyopari.github.io/VINN/). The data can be downloaded from: https://drive.google.com/file/d/1CRfvW9sLZMH_UJwf8ILEbu9fkgABarrJ/view?usp=sharing
 
 
 The following will load the data in numpy and save it as npy file locally. NOTE: The npy file can become extremely big because the images are loaded in full resolution. So edit the code to either fragment the data and save it in chunks or downsample images before saving them.
